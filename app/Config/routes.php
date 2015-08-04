@@ -42,7 +42,7 @@ CakePlugin::routes();
  * the built-in default routes.
  */
 Router::mapResources('posts');
-Router::parseExtensions();
+Router::parseExtensions('json');
 
 
 Router::connect('/api/:object/:command', array(

@@ -21,5 +21,8 @@ class ExampleComponent extends Component {
         }
         return 'You said: ' . $args['text'];
     }
-
+    public function posts() {
+        return '/posts.json';
+        
+    }
 }
